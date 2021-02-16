@@ -1,3 +1,4 @@
+
 var btn = document.getElementById("startButton");
 var output = document.getElementById("outputtext");
 var words =["door", "four", "cats", "fork", "pies"];
@@ -20,4 +21,5 @@ btn.addEventListener("click", function(event) {
         }
     }, 1000);
 })
+
 
