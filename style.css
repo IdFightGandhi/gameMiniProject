@@ -1,13 +1,19 @@
+:root {
+    --backgroundColor: rgba(130, 161, 159, 0.5);
+    --borderColor: 5px solid rgba(130, 161, 159, 1);
+}
+
 body {
-    background-color: dimgrey;
+    background-color: rgba(130, 130, 130, 0.6);
 }
 
 #start-container{
-    background-color:#0E2431 ;
-    border: 5px solid white;
-    height:150px;
+    background-color: var(--backgroundColor);
+    border: var(--borderColor);
+    border-radius: 2em;
+    height: 150px;
     width: 800px;
-    margin:auto;
+    margin: auto;
     text-align: center;
 
 }
@@ -20,8 +26,8 @@ h1{
 
 #game-container {
 
-    background-color:#0E2431 ;
-    border: 5px solid white;
+    background-color: var(--backgroundColor);
+    border: var(--borderColor);
     height:150px;
     width: 800px;
     margin:auto;
@@ -35,7 +41,8 @@ h1{
 }
 
 #startButton{
-    background-color: yellow;
+    background-color: rgba(186, 86, 115, 0.2);
+    border-radius: 2em;
     width: 200px;
     height: 50px;
 }

@@ -9,9 +9,8 @@ var secLe = 60;
 //this is the timer
 
 //this calls my function to start
-setTime();
 
-btn.addEventListener("click", function(event) {
+btn.addEventListener("click", function setTime(event) {
     var timerInterval = setInterval(function() {
         secLe--;
         timeLe.textContent = secLe + " is this working";
@@ -21,5 +20,8 @@ btn.addEventListener("click", function(event) {
         }
     }, 1000);
 })
+
+setTime();
+
 
 
